@@ -1,6 +1,6 @@
 name: Self-Hosted DevOps Runner
 
-on:
+on: 
   push:
     branches:
       - main
