@@ -21,8 +21,8 @@ jobs:
           sudo apt update && sudo apt install -y \
               curl wget unzip tar git jq tree vim nano dnsutils net-tools \
               software-properties-common apt-transport-https ca-certificates gnupg
-      
-      
+
+            
       - name: Install Azure CLI
         run: |
           curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
