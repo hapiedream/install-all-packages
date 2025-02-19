@@ -22,11 +22,7 @@ jobs:
               curl wget unzip tar git jq tree vim nano dnsutils net-tools \
               software-properties-common apt-transport-https ca-certificates gnupg
       
-      - name: Install AWS CLI
-        run: |
-          curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-          unzip awscliv2.zip && sudo ./aws/install
-
+      
       - name: Install Azure CLI
         run: |
           curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
